@@ -46,6 +46,16 @@
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-server</artifactId>
 			<version>${vaadin.version}</version>
+		 <exclusions>
+		  <exclusion>
+		   <groupId>com.vaadin.external.flute</groupId>
+		   <artifactId>flute</artifactId>
+		  </exclusion>
+		  <exclusion>
+		   <groupId>com.vaadin.external.google</groupId>
+		   <artifactId>guava</artifactId>
+		  </exclusion>
+		 </exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
@@ -72,11 +82,6 @@
 			<artifactId>vaadin-client</artifactId>
 			<version>${vaadin.version}</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-push</artifactId>
-			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
