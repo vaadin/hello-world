@@ -11,11 +11,11 @@ Simple Vaadin Hello World application. This project demonstrates:
 
 Make sure you have installed [Maven](http://maven.apache.org/) and [Git](http://git-scm.com/).
 
-    git clone https://github.com/samie/hello-world.git
+    git clone https://github.com/vaadin-samples/hello-world.git
     cd hello-world
     mvn jetty:run
     
-After these steps you have the application up and running at http://localhost:8080/hello-world
+After these steps you have the application up and running at http://localhost:8080/
 
 You can find the code for the application in [HelloWorldUI.java](src/main/java/org/vaadin/samples/helloworld/HelloWorldUI.java).
 
