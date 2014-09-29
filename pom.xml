@@ -175,10 +175,10 @@
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.2.3.v20140905</version>
+                 <version>8.1.14.v20131031</version>
                 <configuration>
                     <webApp>
-                        <contextPath>/hello-world</contextPath>
+                        <contextPath>/</contextPath>
                     </webApp>
                     <scanIntervalSeconds>5</scanIntervalSeconds>
                 </configuration>
