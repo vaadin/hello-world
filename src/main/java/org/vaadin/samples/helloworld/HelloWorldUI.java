@@ -1,6 +1,5 @@
 package org.vaadin.samples.helloworld;
 
-import com.vaadin.annotations.PreserveOnRefresh;
 import javax.servlet.annotation.WebServlet;
 
 import com.vaadin.annotations.Theme;
@@ -13,10 +12,8 @@ import com.vaadin.ui.Label;
 import com.vaadin.ui.Notification;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
-import java.net.InetAddress;
 
 @Theme("valo")
-@PreserveOnRefresh
 @SuppressWarnings("serial")
 public class HelloWorldUI extends UI {
 
